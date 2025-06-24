@@ -9,7 +9,7 @@ import PlaceOrder from './pages/PlaceOrder'
 import Product from './pages/Product'
 import About from './pages/About'
 import Collection from './pages/Collection'
-// import Navbar from './components/Navbar'
+import Navbar from './components/Navbar'
 // import Footer from './components/Footer'
 // import Searchbar from './components/Searchbar'
 import {ToastContainer} from 'react-toastify'
@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[10vw]'>
      <ToastContainer />
-     {/* <Navbar /> */}
+     <Navbar />
      {/* <Searchbar /> */}
       <Routes>
         <Route path='/' element={<Home />} />
